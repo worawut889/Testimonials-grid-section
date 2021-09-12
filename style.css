@@ -169,6 +169,14 @@ header p .profile-status {
 
 }
 
+@media screen and (max-width: 390px) {
+  .item-1 {
+    height: 450px;
+  }
+
+}
+
+
 .item-2 {
   grid-area: b;
   background-color: var(--very-dark-grayish-blue);
