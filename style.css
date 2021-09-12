@@ -89,12 +89,12 @@ body {
   display: flex;
 }
 
-header {
+.profile-container {
   display: flex;
   align-items:center;
 }
 
-header>img {
+.profile-container>img {
   border-radius: 50%;
   width: 32px;
   height: 32px;
@@ -113,11 +113,11 @@ header>img {
   font-size: smaller;
 }
 
-header p .profile-name {
+.profile-container p .profile-name {
   font-weight: var(--font-weight-600);
 }
 
-header p .profile-status {
+.profile-container p .profile-status {
   opacity: 50%;
   font-weight: var(--font-weight-600);
   font-size: smaller;
@@ -156,7 +156,7 @@ header p .profile-status {
     height: 380px;
   }
 
-  .item-1>header {
+  .item-1>.profile-container {
     position: absolute;
     z-index: 5;
   }
